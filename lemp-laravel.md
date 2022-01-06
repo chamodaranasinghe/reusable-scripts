@@ -86,7 +86,6 @@ nvm list-remote
 nvm install v14.10.1
 sudo chgrp -R www-data storage bootstrap/cache
 sudo chmod -R ug+rwx storage bootstrap/cache
-sudo chown -R www-data  /var/www
 sudo chown -R $USER:www-data storage
 chmod -R 775 storage
 ```
